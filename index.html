@@ -9,20 +9,31 @@
     <div class="container">
         <header>
             <h1>ROCK PAPER SCISSORS</h1>
+            <div class="info">
+                <p>Games won: <span class="games-won"></span></p>
+                <p>Lives: <span class="lives"></span></p>
+            </div>
+            
         </header>
         <main>
             <div class="options">
-                <div class="option" id="rock">
-                    <img src="/images/rock.png" alt="Rock image">
+                <div class="option" >
+                    <img src="/images/rock.png" alt="Rock image" id="rock">
                 </div>
-                <div class="option" id="paper">
-                    <img src="/images/paper.png" alt="Paper image">
+                <div class="option" >
+                    <img src="/images/paper.png" alt="Paper image" id="paper">
                 </div>
-                <div class="option" id="scissors">
-                    <img src="/images/scissors.png" alt="Scissors image">
+                <div class="option" >
+                    <img src="/images/scissors.png" alt="Scissors image" id="scissors">
                 </div>
+            </div>
+            <div class="output">
+                <p>Player choice: <span class="playerchoice"></span></p>
+                <p>Computer choice: <span class="computerchoice"></span></p>
+                <p class="result"></p>
             </div>
         </main>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
