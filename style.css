@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps&display=swap');
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-family: 'Macondo Swash Caps', cursive;
+}
+
+.container{
+    padding: 10px 100px;
+}
+
+header{
+    margin-bottom: 50px;
+}
+
+header h1{
+    word-spacing: 30px;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.option{
+    cursor: pointer;
+    border: 1px solid;
+}
+
+.option img{
+    width: 100%;
+}
